@@ -1,0 +1,92 @@
+<nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-emerald-100">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <a href="/index.html">
+                <div class="flex items-center space-x-3">
+                    <div
+                        class="w-10 h-10 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-xl flex items-center justify-center">
+                        <i class="fas fa-book-open text-white text-lg"></i>
+                    </div>
+                    <h1 class="font-playfair font-bold text-2xl text-emerald-800">
+                        Sasakala
+                    </h1>
+                </div>
+            </a>
+
+            <div class="hidden md:flex space-x-8 font-medium text-emerald-700">
+                <a href="/index.html#home" class="hover:text-emerald-900 transition-colors">Beranda</a>
+
+                <div class="relative group">
+                    <button class="flex items-center hover:text-emerald-900 transition-colors">
+                        <span>Cerita</span>
+                        <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div
+                        class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-emerald-50">
+                        <a href="/cerita/sangkuriang.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Sangkuriang</a>
+                        <a href="/cerita/lutung-kasarung.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Lutung Kasarung</a>
+                        <a href="/cerita/mundinglaya-dikusumah.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Mundinglaya Dikusumah</a>
+                        <a href="/cerita/nyi-roro-kidul.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Nyi Roro Kidul</a>
+                        <a href="/cerita/prabu-siliwangi.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Prabu Siliwangi</a>
+                        <a href="/cerita/ciung-wanara.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50">Ciung Wanara</a>
+                    </div>
+                </div>
+
+                <a href="/index.html#about" class="hover:text-emerald-900 transition-colors">Tentang</a>
+                <a href="/index.html#mission" class="hover:text-emerald-900 transition-colors">Tujuan</a>
+            </div>
+
+            <button id="mobile-menu-button" class="md:hidden text-emerald-700 hover:text-emerald-900 transition-colors">
+                <i id="menu-icon" class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="md:hidden overflow-hidden transition-all duration-300 ease-in-out max-h-0">
+            <div class="pt-4 pb-2 space-y-2">
+                <a href="/index.html#home"
+                    class="block px-4 py-3 font-medium text-emerald-700 hover:text-emerald-900 hover:bg-emerald-50 rounded-lg transition-all duration-200">
+                    Beranda
+                </a>
+
+                <div class="px-4">
+                    <button id="stories-dropdown-button"
+                        class="w-full text-left py-3 font-medium text-emerald-700 hover:text-emerald-900 hover:bg-emerald-50 rounded-lg transition-all duration-200 flex justify-between items-center">
+                        <span>Cerita</span>
+                        <i id="stories-dropdown-icon"
+                            class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+                    </button>
+                    <div id="stories-dropdown-menu"
+                        class="pl-4 overflow-hidden max-h-0 transition-all duration-300 space-y-1">
+                        <a href="/cerita/sangkuriang.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Sangkuriang</a>
+                        <a href="/cerita/lutung-kasarung.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Lutung Kasarung</a>
+                        <a href="/cerita/mundinglaya-dikusumah.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Mundinglaya
+                            Dikusumah</a>
+                        <a href="/cerita/nyi-roro-kidul.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Nyi Roro Kidul</a>
+                        <a href="/cerita/prabu-siliwangi.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Prabu Siliwangi</a>
+                        <a href="/cerita/ciung-wanara.html"
+                            class="block px-4 py-2 text-emerald-700 hover:bg-emerald-50 rounded-lg">Ciung Wanara</a>
+                    </div>
+                </div>
+
+                <a href="/index.html#about"
+                    class="block px-4 py-3 font-medium text-emerald-700 hover:text-emerald-900 hover:bg-emerald-50 rounded-lg transition-all duration-200">
+                    Tentang
+                </a>
+                <a href="/index.html#mission"
+                    class="block px-4 py-3 font-medium text-emerald-700 hover:text-emerald-900 hover:bg-emerald-50 rounded-lg transition-all duration-200">
+                    Tujuan
+                </a>
+            </div>
+        </div>
+</nav>
