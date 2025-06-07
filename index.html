@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Sasakala - Cerita Rakyat Tatar Pasundan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="font-inter bg-gradient-to-br from-emerald-50 via-white to-amber-50 scroll-smooth">
+    <div id="navbar-placeholder"></div>
+
+    <section id="home" class="pt-20 pb-16 hero-pattern min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <div
+                            class="inline-flex items-center space-x-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-medium">
+                            <i class="fas fa-star"></i>
+                            <span>Warisan Budaya Sunda</span>
+                        </div>
+                        <h1 class="font-playfair font-bold text-5xl lg:text-6xl text-emerald-900 leading-tight">
+                            Mengenal
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">Sasakala</span>
+                            <br />Tatar Pasundan
+                        </h1>
+                        <p class="text-xl text-emerald-700 leading-relaxed max-w-lg">
+                            Jelajahi kekayaan cerita rakyat dari tanah Sunda yang syarat
+                            akan nilai-nilai luhur, kebijaksanaan, dan pembelajaran hidup
+                            untuk generasi masa kini.
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#stories"
+                            class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center space-x-2 hover:from-emerald-700 hover:to-emerald-800 transition-all transform hover:scale-105 shadow-lg">
+                            <span>Mulai Membaca</span>
+                        </a>
+                        <a href="#about"
+                            class="border-2 border-emerald-600 text-emerald-700 px-8 py-4 rounded-xl font-semibold flex items-center justify-center space-x-2 hover:bg-emerald-50 transition-all transform hover:scale-105">
+                            <span>Pelajari Lebih</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-center">
+                    <img src="./images/char.png" alt="Ilustrasi Cerita Rakyat Sunda" class="w-64 h-auto object-contain z-10" />
+                    <div class="absolute top-10 left-20 w-48 h-48 bg-emerald-200 rounded-full opacity-50"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stories" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div
+                    class="inline-flex items-center space-x-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                    <i class="fas fa-scroll"></i>
+                    <span>Koleksi Cerita</span>
+                </div>
+                <h2 class="font-playfair font-bold text-4xl text-emerald-900 mb-4">
+                    Cerita Rakyat Pilihan
+                </h2>
+                <p class="text-emerald-600 text-lg max-w-2xl mx-auto">
+                    Temukan berbagai cerita rakyat Sunda yang telah diwariskan
+                    turun-temurun, penuh dengan nilai moral dan kearifan lokal.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-emerald-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-mountain text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Sangkuriang
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Legenda pembentukan Gunung Tangkuban Perahu dan Danau Bandung
+                            yang penuh dengan pelajaran tentang cinta dan pengorbanan.
+                        </p>
+                    </div>
+                    <a href="./cerita/sangkuriang.html"
+                        class="block w-full bg-emerald-600 text-white py-3 rounded-xl font-medium hover:bg-emerald-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-amber-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-crown text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Lutung Kasarung
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Dongeng tentang seorang putri yang diasingkan dan ditolong oleh
+                            lutung sakti, mengajarkan tentang kebaikan hati.
+                        </p>
+                    </div>
+                    <a href="./cerita/lutung-kasarung.html"
+                        class="block w-full bg-amber-600 text-white py-3 rounded-xl font-medium hover:bg-amber-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-blue-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-water text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Nyi Roro Kidul
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Legenda penguasa laut selatan yang misterius, mengajarkan
+                            tentang rasa hormat terhadap alam.
+                        </p>
+                    </div>
+                    <a href="./cerita/nyi-roro-kidul.html"
+                        class="block w-full bg-blue-600 text-white py-3 rounded-xl font-medium hover:bg-blue-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-purple-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-leaf text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Mundinglaya Dikusumah
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Kisah seorang pemuda yang mencari bunga melati putih untuk
+                            menyembuhkan raja yang sakit.
+                        </p>
+                    </div>
+                    <a href="./cerita/mundinglaya-dikusumah.html"
+                        class="block w-full bg-purple-600 text-white py-3 rounded-xl font-medium hover:bg-purple-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-red-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-red-400 to-red-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-chess-king text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Prabu Siliwangi
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Cerita tentang raja bijaksana yang memimpin Kerajaan Pajajaran
+                            dengan adil dan penuh kebijaksanaan.
+                        </p>
+                    </div>
+                    <a href="./cerita/prabu-siliwangi.html"
+                        class="block w-full bg-red-600 text-white py-3 rounded-xl font-medium hover:bg-red-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-lg border border-teal-100 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-teal-400 to-teal-600 rounded-xl flex items-center justify-center mb-4">
+                            <i class="fas fa-dove text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-2">
+                            Ciung Wanara
+                        </h3>
+                        <p class="text-emerald-600 text-sm mb-6">
+                            Legenda pangeran yang dikutuk menjadi burung dan perjuangannya
+                            untuk kembali menjadi manusia.
+                        </p>
+                    </div>
+                    <a href="./cerita/ciung-wanara.html"
+                        class="block w-full bg-teal-600 text-white py-3 rounded-xl font-medium hover:bg-teal-700 transition-colors text-center">
+                        Baca Cerita
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gradient-to-br from-emerald-50 to-amber-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-32 items-center">
+                <div class="space-y-8">
+                    <div>
+                        <div
+                            class="inline-flex items-center space-x-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                            <i class="fas fa-heart"></i>
+                            <span>Tentang Kami</span>
+                        </div>
+                        <h2 class="font-playfair font-bold text-4xl text-emerald-900 mb-6">
+                            Melestarikan Warisan
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">Budaya
+                                Sunda</span>
+                        </h2>
+                        <p class="text-emerald-700 text-lg leading-relaxed mb-6">
+                            Sasakala adalah platform digital yang didedikasikan untuk
+                            melestarikan dan mengenalkan kekayaan cerita rakyat Tatar
+                            Pasundan kepada generasi masa kini. Kami percaya bahwa setiap
+                            cerita mengandung nilai-nilai luhur yang dapat menjadi pedoman
+                            hidup.
+                        </p>
+                        <p class="text-emerald-600 leading-relaxed">
+                            Melalui penyajian yang modern namun tetap mempertahankan
+                            keaslian cerita, kami berharap dapat menjembatani kesenjangan
+                            antara tradisi lama dengan era digital, sehingga warisan budaya
+                            Sunda dapat terus hidup dan berkembang.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex justify-center lg:justify-start lg:pl-20">
+                    <div class="relative">
+                        <img src="./images/char2.png" alt="Karakter Budaya Sunda" class="w-64 h-auto object-contain" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div
+                    class="inline-flex items-center space-x-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                    <i class="fas fa-target"></i>
+                    <span>Tujuan Kami</span>
+                </div>
+                <h2 class="font-playfair font-bold text-4xl text-emerald-900 mb-4">
+                    Visi & Misi Sasakala
+                </h2>
+                <p class="text-emerald-600 text-lg max-w-2xl mx-auto">
+                    Mewujudkan pelestarian budaya Sunda melalui digitalisasi cerita
+                    rakyat yang dapat diakses oleh semua kalangan.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-8 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl card-hover">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-4">
+                        Melestarikan
+                    </h3>
+                    <p class="text-emerald-700">
+                        Menjaga keaslian dan keutuhan cerita rakyat Sunda untuk generasi
+                        mendatang
+                    </p>
+                </div>
+
+                <div class="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl card-hover">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-share-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-4">
+                        Mengenalkan
+                    </h3>
+                    <p class="text-emerald-700">
+                        Memperkenalkan kekayaan budaya Sunda kepada masyarakat luas
+                    </p>
+                </div>
+
+                <div class="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl card-hover">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-4">
+                        Menginspirasi
+                    </h3>
+                    <p class="text-emerald-700">
+                        Memberikan inspirasi dan pembelajaran hidup melalui nilai-nilai
+                        dalam cerita
+                    </p>
+                </div>
+
+                <div class="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl card-hover">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-globe text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-playfair font-bold text-xl text-emerald-900 mb-4">
+                        Menyebarkan
+                    </h3>
+                    <p class="text-emerald-700">
+                        Menyebarluaskan kebudayaan Sunda hingga ke seluruh nusantara dan
+                        dunia
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="mt-16 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-3xl p-12 text-center text-white">
+                <h3 class="font-playfair font-bold text-3xl mb-6">
+                    Bergabunglah dengan Misi Kami
+                </h3>
+                <p class="text-emerald-100 text-lg mb-8 max-w-2xl mx-auto">
+                    Mari bersama-sama melestarikan warisan budaya Sunda dan memastikan
+                    cerita-cerita berharga ini tetap hidup di hati generasi masa depan.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                        class="bg-white text-emerald-700 px-8 py-4 rounded-xl font-semibold hover:bg-emerald-50 transition-colors">
+                        Hubungi Kami
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
